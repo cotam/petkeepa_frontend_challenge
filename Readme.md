@@ -10,7 +10,7 @@ Start by getting the code from petkeepa challenge repository at "https://github.
 
 You need to use WAMP server. 
 
-Install Wamp at D:\wamp. You can choose any other installation directory but it will only make setting up the sandbox more hard. But we are game if you want to take that as a challenge too.
+hoose the installation directory for wamp as D:\wamp. You can choose any other installation directory but it will only make setting up the sandbox more hard. But we are game if you want to take that as a challenge too.
 
 Create a database called pet in the wamp server MySQL and then import the pet.sql.
 
