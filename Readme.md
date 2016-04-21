@@ -6,9 +6,13 @@ You have two tasks at hand.
 
 First -- Set up your local sandbox. 
 
-Start by cloning our petkeepa challenge repository at "https://github.com/cotam/petkeepa_frontend_challenge"
+Start by getting the code from petkeepa challenge repository at "https://github.com/cotam/petkeepa_frontend_challenge"
 
-You need to use WAMP server. Create a database called pet in the wamp server MySQL and then import the pet.sql.
+You need to use WAMP server. 
+
+Install Wamp at D:\wamp. You can choose any other installation directory but it will only make setting up the sandbox more hard. But we are game if you want to take that as a challenge too.
+
+Create a database called pet in the wamp server MySQL and then import the pet.sql.
 
 You may face difficulties in it but we would like to gauge your problem solving skills from it. You are allowed to ask questions and we will be happy to give you pointers. Your questions will also help us know your thought process.
 
