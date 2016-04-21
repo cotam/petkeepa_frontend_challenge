@@ -1,0 +1,283 @@
+
+/**
+ * Public
+ *  - jqGrid
+ * =============================== */
+
+/**
+ * jqGrid
+ * =============================== */
+.ui-jqgrid {
+  color: #333333;
+  max-width: 100%;
+  width: 100%;
+}
+.ui-jqgrid .ui-jqgrid-view .ui-jqgrid-htable {
+  background-color: #F4F4F4;
+}
+.ui-jqgrid .ui-jqgrid-view .ui-jqgrid-htable th {
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #CCC !important;
+}
+.ui-jqgrid .ui-jqgrid-view .ui-jqgrid-htable th div {
+  height: 30px;
+}
+.ui-jqgrid .ui-jqgrid-view .ui-jqgrid-hdiv {
+  max-width: 870px;
+}
+.ui-jqgrid .ui-jqgrid-view .ui-jqgrid-bdiv {
+  max-width: 870px;
+}
+.ui-jqgrid table.ui-jqgrid-btable {
+  border: 1px solid #CCC;
+  border-top: 0;
+}
+.ui-jqgrid .ui-jqgrid-btable tr.jqgrow td {
+  height: 30px;
+}
+.ui-jqgrid table.ui-pg-table {
+  border : 1px solid #CCC;
+  height: 30px;
+  line-height: 30px;
+}
+.ui-jqgrid .ui-jqgrid-bdiv {
+  width: 100% !important;
+}
+.ui-jqgrid .ui-jqgrid-view {
+  width: 100% !important;
+  overflow: hidden;
+}
+.ui-jqgrid .ui-jqgrid-pager {
+  width: 100% !important;
+  height: 40px !important;
+}
+.ui-jqgrid .ui-pg-table table {
+  border: 0;
+}
+.ui-jqgrid .ui-pg-button.ui-state-hover {
+  padding: 1px ! important;
+}
+.ui-jqgrid .ui-pg-button.ui-state-disabled {
+  color: #CCC;
+}
+.ui-jqgrid input.ui-pg-input {
+  height: 23px;
+  line-height: 20px;
+}
+.ui-jqgrid div.ui-paging-info {
+  margin-top: 0;
+  height: 30px;
+}
+.ui-jqgrid .ui-pg-button span.ui-icon-seek-first,
+.ui-jqgrid .ui-pg-button span.ui-icon-seek-prev,
+.ui-jqgrid .ui-pg-button span.ui-icon-seek-next,
+.ui-jqgrid .ui-pg-button span.ui-icon-seek-end {
+  display: inline-block;;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #CCC;
+  border-radius: 50%;
+}
+.ui-jqgrid .ui-pg-button span.ui-icon-seek-first:after {
+  content: '<<';
+  left: 2px;
+  top: -6px;
+  position: relative;
+}
+.ui-jqgrid .ui-pg-button span.ui-icon-seek-prev:after {
+  content: '<';
+  left: 5px;
+  top: -6px;
+  position: relative;
+}
+.ui-jqgrid .ui-pg-button span.ui-icon-seek-next:after {
+  content: '>';
+  left: 5px;
+  top: -6px;
+  position: relative;
+}
+.ui-jqgrid .ui-pg-button span.ui-icon-seek-end:after {
+  content: '>>';
+  left: 2px;
+  top: -6px;
+  position: relative;
+}
+.ui-dialog {
+  position: absolute !important;
+  z-index: 3;
+}
+.ui-widget-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba( 0, 0, 0, .05 );
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.ui-dialog,
+.ui-jqdialog {
+  background: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.ui-dialog .ui-dialog-titlebar,
+.ui-jqdialog .ui-jqdialog-titlebar {
+  display: block;
+  width: 100%;
+  height: 40px;
+}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-title,
+.ui-jqdialog .ui-jqdialog-titlebar .ui-jqdialog-title {
+  line-height: 30px;
+  font-size: 11px;
+  color: #51575B;
+}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close,
+.ui-jqdialog .ui-jqdialog-titlebar .ui-jqdialog-titlebar-close {
+  height: 20px;
+  width: 20px;
+  background: initial;
+  border: 0;
+  float: right;
+  top: 15px;
+}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close span.ui-button-text {
+  display: none;
+}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close span.ui-icon.ui-icon-closethick:after,
+.ui-jqdialog .ui-jqdialog-titlebar .ui-jqdialog-titlebar-close span.ui-icon.ui-icon-closethick:after {
+  content: 'x';
+}
+.ui-dialog .ui-dialog-buttonpane {
+  margin: 10px 0 10px 0;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+  text-align: right;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-button,
+.ui-jqdialog .ui-jqdialog-content .fm-button {
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  padding: .4em 1.5em;
+  background: inherit;
+  font-size: 11px;
+  color: #51575B;
+  margin: 0 4px 0 0;
+}
+.ui-dialog .ui-dialog-content {
+  font-size: 11px;
+  color: #333333;
+}
+.ui-dialog .ui-dialog-content hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ui-dialog .ui-dialog-content hr:last-child {
+  margin-bottom: 40px;
+  border:0;
+}
+.ui-jqdialog .ui-jqdialog-content .EditTable {
+  table-layout: auto !important;
+}
+.ui-jqdialog .ui-jqdialog-content .fm-button.ui-corner-left,
+.ui-jqdialog .ui-jqdialog-content .fm-button.ui-corner-right {
+  height: 20px;
+  width: 20px ! important;
+  border: 1px solid #CCC;
+  border-radius: 50%;
+}
+.ui-jqdialog .ui-jqdialog-content .fm-button.ui-corner-left span:after {
+  content: '<';
+}
+.ui-jqdialog .ui-jqdialog-content .fm-button.ui-corner-right span:after {
+  content: '>';
+}
+/**
+ * Administrator
+ *  - login
+ *  - dashboard
+ * =============================== */
+
+/**
+ * Login
+ * =============================== */
+#admin-login {
+}
+#admin-login .login-wrapper {
+  margin-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: #DAE3EA;
+}
+
+/**
+ * Dashboard
+ * =============================== */
+#admin-dashboard {
+}
+
+#admin-dashboard .statistics {
+}
+#admin-dashboard .statistics dl {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  text-align: center;
+}
+#admin-dashboard .statistics dl dt {
+  display: block;
+  line-height: 89px;
+  width: 100%;
+  font-size: 32px;
+  border-bottom: 1px dashed #CCC;
+}
+#admin-dashboard .statistics dl dd {
+  width: 100%;
+  line-height: 30px;
+  color: #555;
+  margin: 0;
+}
+
+#admin-dashboard #users-chart {
+  float: left;
+}
+#admin-dashboard #users-chart-legend {
+  float: right;
+}
+#admin-dashboard .pie-legend {
+  list-style: none;
+  right: 8px;
+  top: 0;
+}
+#admin-dashboard .pie-legend li {
+  display: block;
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  padding: 2px 8px 2px 28px;
+  font-size: 14px;
+  cursor: default;
+  -webkit-transition: background-color 200ms ease-in-out;
+  -moz-transition: background-color 200ms ease-in-out;
+  -o-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+}
+#admin-dashboard .pie-legend li span {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  height: 100%;
+  border-radius: 5px;
+}
